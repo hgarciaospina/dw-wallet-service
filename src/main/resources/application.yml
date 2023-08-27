@@ -1,0 +1,6 @@
+server:
+  port: 9001
+spring:
+  data:
+    mongodb:
+      uri:  mongodb+srv://oliveraluis:oliveraluis@project.wtwtmii.mongodb.net/digitalwallet-wallet?retryWrites=true&w=majority
