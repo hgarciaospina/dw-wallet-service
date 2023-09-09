@@ -1,10 +1,10 @@
 package com.digitalwalletservice.domains.value_object;
 
-public class CustomerTypeDocument {
+public class CustomerDocumentType {
 
     public static final String validTypeDocumentRegex = "^(DNI|RUC)$";
     public String value;
-    public CustomerTypeDocument(String value){
+    public CustomerDocumentType(String value){
         this.value = value;
         this.ensureIsValidTypeDocument(value);
     }
