@@ -1,4 +1,4 @@
-package com.digitalwalletservice;
+package com.digitalwallet.walletservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
